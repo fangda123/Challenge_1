@@ -36,18 +36,3 @@ Frontend:
 cd frontend
 npm test
 ```
-
-## How to create a GitHub repo
-1. Create a new repo on GitHub.
-2. Locally:
-```bash
-unzip challenge-1.zip
-cd challenge-1
-git init
-git add .
-git commit -m "Challenge 1 initial"
-git branch -M main
-git remote add origin <YOUR_GITHUB_URL>
-git push -u origin main
-```
-
